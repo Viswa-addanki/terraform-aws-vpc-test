@@ -7,7 +7,7 @@ required_providers {
   }
    backend "s3" {
     bucket = "viswaws78s-remote"
-    key    = "expense-vpc"
+    key    = "expense-vpc-test"
     region = "us-east-1"
     dynamodb_table = "viswaws-locking"
   }
